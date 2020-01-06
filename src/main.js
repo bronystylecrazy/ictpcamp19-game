@@ -1,28 +1,18 @@
 import 'babel-polyfill';
-import './firebase';
 import Vue from 'vue';
 import Vuex from 'vuex';
 import Vuetify from 'vuetify';
 import VueRouter from 'vue-router';
-import {
-   firestorePlugin
-} from 'vuefire';
-
-import _ from 'lodash'
+import _ from 'lodash';
 
 import App from './App.vue';
 import Checkin from './views/Checkin.vue';
 import Profile from './views/Profile.vue';
-import Home from './views/Home.vue';
 import Random from './views/Random.vue';
-import {
-   db
-} from './firebase';
-
 Vue.use(Vuetify);
 Vue.use(Vuex);
 Vue.use(VueRouter);
-Vue.use(firestorePlugin);
+
 new Vue({
    vuetify: new Vuetify({}),
    router: new VueRouter({

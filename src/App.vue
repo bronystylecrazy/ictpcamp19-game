@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import { db } from "./firebase";
 export default {
     data: () => ({
         overlay: false
@@ -27,25 +26,11 @@ export default {
     },
     methods: {
         getGuilds() {
-            db.collection("guilds")
-                .get()
-                .then(querySnapshot => {
-                    this.$store.state.guilds = querySnapshot.docs.map(doc =>
-                        doc.data()
-                    );
-                });
+            this.$store.state.guilds = [];
         }
     },
     created() {
         this.getGuilds();
-        db.collection("guilds").onSnapshot(doc => {
-            db.collection("guilds")
-                .get()
-                .then(querySnapshot => {
-                    this.guilds = querySnapshot.docs.map(doc => doc.data());
-                    this.overlay = false;
-                });
-        });
     }
 };
 </script>

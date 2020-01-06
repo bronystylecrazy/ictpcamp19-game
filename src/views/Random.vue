@@ -189,7 +189,15 @@ import anime from "animejs";
 import CaseManager from "../caseManager";
 import ItemManager, { Item, BaseItem } from "../itemManager";
 import $ from "jquery";
-import { click, buttonClick } from "../soundManager";
+import {
+    click,
+    buttonClick,
+    blue,
+    purple,
+    pink,
+    red,
+    gold
+} from "../soundManager";
 import "../plugins";
 
 export default {
@@ -200,7 +208,8 @@ export default {
         caseData: CaseManager[0],
         cases: CaseManager,
         items: [],
-        winitem: new Item("blue", new BaseItem("", "", ""), false)
+        winitem: new Item("blue", new BaseItem("", "", ""), false),
+        masterVolume: 1
     }),
     methods: {
         selectCase(current) {
@@ -212,7 +221,9 @@ export default {
         },
         spin() {
             this.isClick = true;
-            new Audio(buttonClick).play();
+            const caseOpen = new Audio(buttonClick);
+            caseOpen.volume = this.masterVolume * 0.5;
+            caseOpen.play();
             setTimeout(() => this.animate(-1, 37, 9500), 100);
         },
         initializeItem(number) {
@@ -237,7 +248,10 @@ export default {
                 -191 * number * 0.9 + markerOffset - offset * 180;
 
             let clicks = [];
-            for (var i = 0; i < number; i++) clicks.push(new Audio(click));
+            for (var i = 0; i < number; i++) {
+                clicks.push(new Audio(click));
+                clicks[i].volume = this.masterVolume * 0.5;
+            }
             // var style = window.getComputedStyle(
             //     document.querySelector(".case-inner")
             // );
@@ -296,8 +310,27 @@ export default {
                     }
                 }
             );
+            let case_done = {};
+
+            case_done.blue = new Audio(blue);
+            case_done.blue.volume = this.masterVolume * 0.5;
+
+            case_done.purple = new Audio(purple);
+            case_done.purple.volume = this.masterVolume * 0.5;
+
+            case_done.pink = new Audio(pink);
+            case_done.pink.volume = this.masterVolume * 0.6;
+
+            case_done.red = new Audio(red);
+            case_done.red.volume = this.masterVolume * 0.8;
+
+            case_done.gold = new Audio(gold);
+            case_done.gold.volume = this.masterVolume * 0.8;
+
             setTimeout(() => {
                 this.winitem = this.items[-this.last - 1];
+                console.log(this.winitem);
+                case_done[this.winitem.rarity].play();
                 this.isPopup = true;
             }, duration);
         }

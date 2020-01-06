@@ -22,18 +22,18 @@ var case1 = {
    icon: 'http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5PT8elUwgKKZJmtEvo_kxITZk6StNe-Fz2pTu8Aj3eqVpIqgjVfjrRI9fSmtc1Nw-Kh3/178fx132f',
    type: 'ห่อขนม',
    blue: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 1 เม็ด', 'candy/heart1.png', ),
-   ],
-   purple: [
+      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 1 เม็ด', 'candy/heart1.png', case1_joke),
       new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 2 เม็ด', 'candy/heart1.png', case1_joke),
    ],
-   pink: [
+   purple: [
       new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 3 เม็ด', 'candy/heart1.png', case1_joke),
       new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 4 เม็ด', 'candy/heart1.png', case1_joke),
+   ],
+   pink: [
       new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 5 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 6 เม็ด', 'candy/heart1.png', case1_joke),
    ],
    red: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 6 เม็ด', 'candy/heart1.png', case1_joke),
       new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 7 เม็ด', 'candy/heart1.png', case1_joke),
       new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 8 เม็ด', 'candy/heart1.png', case1_joke),
    ],

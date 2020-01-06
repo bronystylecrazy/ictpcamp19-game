@@ -1,7 +1,14 @@
 import cases from './caseManager';
 
-let ODDS_EQ_BASE = 1;
-let normalRarities = ["blue", "purple", "pink", "red", "gold"];
+let ODDS_EQ_BASE = 1.3;
+let normalRarities = [
+   "red",
+   "pink",
+   "gold",
+   "purple",
+   "blue",
+];
+//let normalRarities = ["gold", "purple", "pink", "red", "blue"];
 
 Array.prototype.sample = function () { // get a random item from an array
    return this[Math.floor(Math.random() * this.length)] || [];
