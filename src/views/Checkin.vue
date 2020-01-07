@@ -27,13 +27,17 @@
                         :items="guilds"
                         v-model="guild"
                         item-text="name"
-                        item-value="color"
+                        item-value="case"
                         filled
                         :label="textTitle"
                         @change="setGuild"
                         class="mt-10 mr-0"
                     ></v-select>
-                    <v-btn @click="next">ใช้! นี่แหละตระกูลกู</v-btn>
+                    <v-btn
+                        :style="{opacity: disabledAll == true ? .3 : 1}"
+                        @click="next"
+                        tile
+                    >ใช้! นี่แหละตระกูลกู</v-btn>
                 </v-col>
             </v-row>
         </v-container>
@@ -41,31 +45,40 @@
 </template>
 
 <script>
+import { buttonClick } from "../soundManager";
+
 export default {
     data: () => ({
         textTitle: "พวกมึงอยู่ตระกูลไหนกันวะ",
         guild: "",
         guildData: {
             name: "ตระกูลไหนวะ?",
-            image:
-                "https://scontent.fbkk7-3.fna.fbcdn.net/v/t31.0-8/p960x960/26170652_1994490490764174_2819356701325830815_o.jpg?_nc_cat=105&_nc_ohc=D0n3xiAgwqkAQn12uKBNUgyjhUCT40t9ISrU-0Pr55HY3J_wOemglN0qA&_nc_ht=scontent.fbkk7-3.fna&oh=6495c13ddbf8f5038959725d6746e98d&oe=5EA605E0"
+            image: "images/avatar.jpg"
         },
-        stop: false
+        stop: false,
+        disabledAll: false
     }),
     methods: {
         setGuild() {
+            this.disabledAll = true;
+            var _buttonClick = new Audio(buttonClick);
+            setTimeout(() => _buttonClick.play(), 500);
+            setTimeout(() => {
+                this.disabledAll = false;
+            }, 500);
             this.guildData =
-                this.guilds.filter(x => x.color == this.guild)[0] || [];
+                this.guilds.filter(x => x.case == this.guild)[0] || [];
             this.stop = true;
-            this.$store.state.bgColor = this.guild;
         },
         next() {
+            if (this.disabledAll) return false;
             this.$store.state.guildData = this.guildData;
-            this.$router.push({ path: "/profile" });
+            this.$router.push({ path: "/random" });
         }
     },
     computed: {
         guilds() {
+            console.log("guilds", this.$store.state.guilds);
             return this.$store.state.guilds.sort((x, y) => y.id - x.id) || [];
         }
     },
@@ -92,18 +105,22 @@ export default {
 }
 
 .logo-leave-active {
-    transition: all 0.25s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .logo-enter-active {
-    transition: all 0.25s ease-in-out;
+    transition: all 0.12s ease-in-out;
 }
+
 .logo-enter,
 .logo-leave-to {
     opacity: 0;
+    transform: scale(2) rotate(20deg);
+    filter: blur(4px);
 }
 .logo-leave,
 .logo-enter-to {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1) rotate(0deg);
+    filter: blur(0px);
 }
 </style>

@@ -29,8 +29,12 @@
                                     <transition name="fade" mode="out-in">
                                         <div
                                             class="case-item elevation-4"
-                                            style="position: absolute; left: 50%; transform: translateX(-50%);"
                                             :key="caseData.name"
+                                            :style="{ position: 'absolute', left: '50%', transform: 'translateX(-50%)',background: `radial-gradient(
+        circle at bottom,
+        ${caseData.bgColor || 'rgba(175, 175, 175, 1)'} 35%,
+        rgba(25, 25, 25, 1) 110%
+    )`}"
                                         >
                                             <div class="case-item-shadow"></div>
                                             <img
@@ -93,6 +97,7 @@
                                     <div class="case-gradient"></div>
                                 </div>
                             </transition>
+
                             <v-btn
                                 @click="spin"
                                 :disabled="isClick"
@@ -100,9 +105,20 @@
                                 dark
                                 color="teal"
                                 large
-                                style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%);"
+                                style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-105%);"
                             >
                                 <v-icon left>mdi-dice-multiple</v-icon>โอเค มาลุ้นกัน!
+                            </v-btn>
+                            <v-btn
+                                @click="viewChance"
+                                :disabled="isClick"
+                                tile
+                                dark
+                                color="info"
+                                large
+                                style="position: absolute; bottom: 30px; left: 50%; transform: translateX(0%);"
+                            >
+                                <v-icon left>mdi-briefcase-search</v-icon>ตรวจสอบรางวัล
                             </v-btn>
                         </div>
                     </v-card>
@@ -127,7 +143,11 @@
                             <div
                                 class="case-item elevation-10"
                                 @click="selectCase(_case)"
-                                :style="{ width: '100%',opacity: isClick == 1 ? '.3' : .8}"
+                                :style="{ width: '100%',opacity: isClick == 1 ? '.3' : .8, background: `radial-gradient(
+        circle at bottom,
+        ${_case.bgColor || 'rgba(175, 175, 175, 1)'} 35%,
+        rgba(25, 25, 25, 1) 110%
+    )`}"
                                 v-ripple
                             >
                                 <div class="case-item-shadow"></div>
@@ -169,7 +189,7 @@
                 </span>
 
                 <span class="ml-1 shadow" :style="{color: winitem.getHTMLColor()}">
-                    <v-icon size="15" :color="winitem.getHTMLColor()">mdi-clover</v-icon>
+                    <v-icon size="15" color="green">mdi-clover</v-icon>
                     {{ winitem.getThaiRarity() }}
                 </span>
             </div>
@@ -212,6 +232,10 @@ export default {
         masterVolume: 1
     }),
     methods: {
+        viewChance() {
+            this.$store.state.caseData = this.caseData;
+            this.$router.push({ path: "/view" });
+        },
         selectCase(current) {
             if (this.isClick) return false;
             this.caseData = current;
