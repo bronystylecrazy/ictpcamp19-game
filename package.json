@@ -28,6 +28,7 @@
   },
   "scripts": {
     "serve": "parcel *.html",
-    "build": "parcel build *.html"
+    "build": "parcel build *.html",
+    "production": "parcel build *.html && gulp"
   }
 }
