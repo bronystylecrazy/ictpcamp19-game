@@ -10,10 +10,13 @@ import Checkin from './views/Checkin.vue';
 import Profile from './views/Profile.vue';
 import Random from './views/Random.vue';
 import RandomChance from './views/RandomChance.vue';
+import RandomScore from './views/RandomScore.vue';
 
 Vue.use(Vuetify);
 Vue.use(Vuex);
 Vue.use(VueRouter);
+
+
 
 new Vue({
    vuetify: new Vuetify({}),
@@ -46,6 +49,13 @@ new Vue({
                transitionName: 'slide'
             },
          },
+         {
+            path: '/score',
+            component: RandomScore,
+            meta: {
+               transitionName: 'slide'
+            },
+         },
       ]
    }),
    store: new Vuex.Store({
@@ -56,33 +66,39 @@ new Vue({
                id: 1,
                name: 'มยุรเวนไตย',
                image: 'images/mayura.png',
-               case: 'case1'
+               case: 'case1',
+               score: 0
             }, {
                id: 2,
                name: 'ครุฑา',
                image: 'images/krutta.png',
-               case: 'case2'
+               case: 'case2',
+               score: 0
             },
             {
                id: 3,
                name: 'กิเลน',
                image: 'images/kiren.png',
-               case: 'case3'
+               case: 'case3',
+               score: 0
             }, {
                id: 4,
                name: 'เอราวัณ',
                image: 'images/erawan.png',
-               case: 'case4'
+               case: 'case4',
+               score: 0
             }, {
                id: 5,
                name: 'บัณฑุราชสีห์',
                image: 'images/ratsri.png',
-               case: 'case5'
+               case: 'case5',
+               score: 0
             }, {
                id: 6,
                name: 'พญานาคราช',
                image: 'images/nakrat.png',
-               case: 'case6'
+               case: 'case6',
+               score: 0
             }
          ],
          guildData: {

@@ -291,3 +291,6 @@ from {
     cursor: default;
     text-shadow: 1px 1px 3px rgba(10, 10, 10, 1);
 }
+.flip-list-move[data-v-300a7e] {
+    transition: transform 1s;
+}

@@ -23,24 +23,24 @@ var case1 = {
    icon: 'images/cases/case1.png',
    type: 'ห่อขนม',
    blue: [
-      // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 1 เม็ด', 'candy/heart1.png', case1_joke),
-      // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 2 เม็ด', 'candy/heart1.png', case1_joke),
-      //new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 3 เม็ด', 'candy/heart1.png', case1_joke),
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 4 เม็ด', 'candy/heart1.png', case1_joke),
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 5 เม็ด', 'candy/heart1.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 1 เม็ด', 'candy/heart1.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 2 เม็ด', 'candy/heart1.png', case1_joke),
+      //new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 3 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 4 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 5 เม็ด', 'candy/heart1.png', case1_joke),
    ],
    purple: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 6 เม็ด', 'candy/heart1.png', case1_joke),
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 7 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 6 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 7 เม็ด', 'candy/heart1.png', case1_joke),
    ],
    pink: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 8 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 8 เม็ด', 'candy/heart1.png', case1_joke),
    ],
    red: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 9 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 9 เม็ด', 'candy/heart1.png', case1_joke),
    ],
    gold: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 10 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 10 เม็ด', 'candy/heart1.png', case1_joke),
    ],
    bgColor: '#80CBC4'
 };
@@ -53,24 +53,24 @@ var case2 = {
    icon: 'images/cases/case2.png',
    type: 'กล่อง',
    blue: [
-      // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 1 เม็ด', 'candy/heart2.png', case1_joke),
-      // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 2 เม็ด', 'candy/heart2.png', case1_joke),
-      // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 3 เม็ด', 'candy/heart2.png', case1_joke),
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 4 เม็ด', 'candy/heart2.png', case1_joke),
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 5 เม็ด', 'candy/heart2.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 1 เม็ด', 'candy/heart2.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 2 เม็ด', 'candy/heart2.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 3 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 4 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 5 เม็ด', 'candy/heart2.png', case1_joke),
    ],
    purple: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 6 เม็ด', 'candy/heart2.png', case1_joke),
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 7 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 6 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 7 เม็ด', 'candy/heart2.png', case1_joke),
    ],
    pink: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 8 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 8 เม็ด', 'candy/heart2.png', case1_joke),
    ],
    red: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 9 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 9 เม็ด', 'candy/heart2.png', case1_joke),
    ],
    gold: [
-      new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 10 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 10 เม็ด', 'candy/heart2.png', case1_joke),
    ],
    bgColor: '#EF9A9A'
 };

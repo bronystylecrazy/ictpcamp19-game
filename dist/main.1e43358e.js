@@ -83758,14 +83758,14 @@ var case1 = {
   description: 'อร่อยๆ นะคร้าบบ',
   icon: 'images/cases/case1.png',
   type: 'ห่อขนม',
-  blue: [// new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 1 เม็ด', 'candy/heart1.png', case1_joke),
-  // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 2 เม็ด', 'candy/heart1.png', case1_joke),
-  //new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 3 เม็ด', 'candy/heart1.png', case1_joke),
-  new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 4 เม็ด', 'candy/heart1.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 5 เม็ด', 'candy/heart1.png', case1_joke)],
-  purple: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 6 เม็ด', 'candy/heart1.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 7 เม็ด', 'candy/heart1.png', case1_joke)],
-  pink: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 8 เม็ด', 'candy/heart1.png', case1_joke)],
-  red: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 9 เม็ด', 'candy/heart1.png', case1_joke)],
-  gold: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 10 เม็ด', 'candy/heart1.png', case1_joke)],
+  blue: [// new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 1 เม็ด', 'candy/heart1.png', case1_joke),
+  // new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 2 เม็ด', 'candy/heart1.png', case1_joke),
+  //new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 3 เม็ด', 'candy/heart1.png', case1_joke),
+  new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 4 เม็ด', 'candy/heart1.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 5 เม็ด', 'candy/heart1.png', case1_joke)],
+  purple: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 6 เม็ด', 'candy/heart1.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 7 เม็ด', 'candy/heart1.png', case1_joke)],
+  pink: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 8 เม็ด', 'candy/heart1.png', case1_joke)],
+  red: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 9 เม็ด', 'candy/heart1.png', case1_joke)],
+  gold: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 10 เม็ด', 'candy/heart1.png', case1_joke)],
   bgColor: '#80CBC4'
 };
 var case2 = {
@@ -83775,14 +83775,14 @@ var case2 = {
   description: 'อร่อยๆ นะคร้าบบ',
   icon: 'images/cases/case2.png',
   type: 'กล่อง',
-  blue: [// new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 1 เม็ด', 'candy/heart2.png', case1_joke),
-  // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 2 เม็ด', 'candy/heart2.png', case1_joke),
-  // new BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 3 เม็ด', 'candy/heart2.png', case1_joke),
-  new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 4 เม็ด', 'candy/heart2.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 5 เม็ด', 'candy/heart2.png', case1_joke)],
-  purple: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 6 เม็ด', 'candy/heart2.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 7 เม็ด', 'candy/heart2.png', case1_joke)],
-  pink: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 8 เม็ด', 'candy/heart2.png', case1_joke)],
-  red: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 9 เม็ด', 'candy/heart2.png', case1_joke)],
-  gold: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีท | ทั้งหมด 10 เม็ด', 'candy/heart2.png', case1_joke)],
+  blue: [// new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 1 เม็ด', 'candy/heart2.png', case1_joke),
+  // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 2 เม็ด', 'candy/heart2.png', case1_joke),
+  // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 3 เม็ด', 'candy/heart2.png', case1_joke),
+  new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 4 เม็ด', 'candy/heart2.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 5 เม็ด', 'candy/heart2.png', case1_joke)],
+  purple: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 6 เม็ด', 'candy/heart2.png', case1_joke), new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 7 เม็ด', 'candy/heart2.png', case1_joke)],
+  pink: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 8 เม็ด', 'candy/heart2.png', case1_joke)],
+  red: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 9 เม็ด', 'candy/heart2.png', case1_joke)],
+  gold: [new _itemManager.BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 10 เม็ด', 'candy/heart2.png', case1_joke)],
   bgColor: '#EF9A9A'
 };
 var case3 = {
@@ -96308,7 +96308,443 @@ render._withStripped = true
       
       }
     })();
-},{"../caseManager":"src/caseManager.js","../itemManager":"src/itemManager.js","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"src/main.js":[function(require,module,exports) {
+},{"../caseManager":"src/caseManager.js","../itemManager":"src/itemManager.js","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"src/views/RandomScore.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _caseManager = _interopRequireDefault(require("../caseManager.js"));
+
+var _lodash = _interopRequireDefault(require("lodash"));
+
+var _jquery = _interopRequireDefault(require("jquery"));
+
+require("../plugins");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  data: function data() {
+    return {
+      scores: [1, 2, 3, 4, 5, 6],
+      guilds: [],
+      isClick: false
+    };
+  },
+  methods: {
+    cases: function cases(prop) {
+      return _caseManager.default.filter(function (x) {
+        return x.selection == prop;
+      })[0];
+    },
+    randomize: function randomize(duration) {
+      var _this = this;
+
+      this.clickAndWait(duration);
+      (0, _jquery.default)({
+        tracker: 0
+      }).animate({
+        tracker: 100
+      }, {
+        duration: duration,
+        easing: _jquery.default.bez([0.31, 0.9985, 0.31, 0.9985]),
+        step: function step(now) {
+          if (Math.floor(now) % 2 == 0) {
+            console.log("random...");
+            _this.scores = _lodash.default.shuffle(_this.scores);
+
+            for (var i = 0; i < _this.guilds.length; i++) {
+              _this.guilds[i].score = _this.scores[i];
+            }
+          }
+        },
+        complete: function complete() {
+          _this.sort();
+
+          console.log("complete!");
+        }
+      });
+    },
+    clickAndWait: function clickAndWait(ms) {
+      var _this2 = this;
+
+      this.isClick = true;
+      setTimeout(function () {
+        _this2.isClick = false;
+      }, ms);
+    },
+    sort: function sort() {
+      this.clickAndWait(1000);
+
+      var __ = this.guilds.sort(function (x, y) {
+        return y.score - x.score;
+      });
+
+      this.guilds = __;
+    },
+    reset: function reset() {
+      this.clickAndWait(1000);
+
+      for (var i = 0; i < this.guilds.length; i++) {
+        this.guilds[i].score = 0;
+      }
+
+      var __ = this.guilds.sort(function (x, y) {
+        return x.id - y.id;
+      });
+
+      this.guilds = __;
+    },
+    reverse: function reverse() {
+      this.clickAndWait(1000);
+
+      var __ = this.guilds.sort(function (x, y) {
+        return x.score - y.score;
+      });
+
+      console.log(__);
+    }
+  },
+  created: function created() {
+    this.guilds = this.$store.state.guilds;
+  }
+};
+exports.default = _default;
+        var $300a7e = exports.default || module.exports;
+      
+      if (typeof $300a7e === 'function') {
+        $300a7e = $300a7e.options;
+      }
+    
+        /* template */
+        Object.assign($300a7e, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "score" },
+    [
+      _c(
+        "v-container",
+        [
+          _c(
+            "v-row",
+            { staticClass: "text-center" },
+            [
+              _c("v-col", { attrs: { md: "12" } }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "display-1 white--text",
+                    staticStyle: { "font-family": "'Pridi', serif !important" }
+                  },
+                  [
+                    _c(
+                      "v-icon",
+                      { attrs: { left: "", color: "white", size: "30" } },
+                      [_vm._v("mdi-candycane")]
+                    ),
+                    _vm._v("กิจกรรมสุ่มมูลค่าลูกอม\n                ")
+                  ],
+                  1
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-row",
+            { staticClass: "px-2", attrs: { justify: "center" } },
+            [
+              _c(
+                "transition-group",
+                {
+                  staticClass: "justify-center",
+                  attrs: { name: "flip-list", tag: "v-row" }
+                },
+                _vm._l(_vm.guilds, function(guild) {
+                  return _c(
+                    "v-col",
+                    { key: guild.name, attrs: { md: "8" } },
+                    [
+                      _c(
+                        "v-card",
+                        [
+                          _c(
+                            "v-list-item",
+                            { attrs: { "two-line": "" } },
+                            [
+                              _c(
+                                "v-list-item-avatar",
+                                {
+                                  staticClass: "grey lighten-2",
+                                  attrs: { size: "50" }
+                                },
+                                [
+                                  _c("v-img", {
+                                    attrs: { src: _vm.cases(guild.name).icon }
+                                  })
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-list-item-content",
+                                [
+                                  _c(
+                                    "v-list-item-title",
+                                    {
+                                      staticClass: "headline",
+                                      style: {
+                                        fontFamily: "'Pridi', serif !important",
+                                        color: _vm.cases(guild.name).bgColor
+                                      }
+                                    },
+                                    [_vm._v(_vm._s(guild.name))]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("v-list-item-subtitle", [
+                                    _vm._v(
+                                      _vm._s(
+                                        _vm.cases(guild.name).blue.sample().name
+                                      ) +
+                                        _vm._s(
+                                          _vm
+                                            .cases(guild.name)
+                                            .blue.sample()
+                                            .description.split("|")[0]
+                                        )
+                                    )
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("v-list-item-action-text", [
+                                _vm._v(
+                                  "มูลค่า " + _vm._s(guild.score) + " คะแนน"
+                                )
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                }),
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-row",
+            { attrs: { justify: "center" } },
+            [
+              _c(
+                "v-btn",
+                {
+                  attrs: {
+                    disabled: _vm.isClick,
+                    tile: "",
+                    dark: "",
+                    color: "teal",
+                    large: ""
+                  },
+                  on: {
+                    click: function($event) {
+                      return _vm.randomize(3000)
+                    }
+                  }
+                },
+                [
+                  _c("v-icon", { attrs: { left: "" } }, [
+                    _vm._v("mdi-dice-multiple")
+                  ]),
+                  _vm._v("สุ่มมูลค่าลูกอม\n            ")
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-btn",
+                {
+                  staticClass: "ml-2",
+                  attrs: {
+                    disabled: _vm.isClick,
+                    tile: "",
+                    dark: "",
+                    color: "teal",
+                    large: ""
+                  },
+                  on: { click: _vm.reverse }
+                },
+                [
+                  _c("v-icon", { attrs: { left: "" } }, [
+                    _vm._v("mdi-dice-multiple")
+                  ]),
+                  _vm._v("มากไปน้อย\n            ")
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-btn",
+                {
+                  staticClass: "ml-2",
+                  attrs: {
+                    disabled: _vm.isClick,
+                    tile: "",
+                    dark: "",
+                    color: "teal",
+                    large: ""
+                  },
+                  on: { click: _vm.sort }
+                },
+                [
+                  _c("v-icon", { attrs: { left: "" } }, [
+                    _vm._v("mdi-dice-multiple")
+                  ]),
+                  _vm._v("น้อยไปมาก\n            ")
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-btn",
+                {
+                  staticClass: "ml-2",
+                  attrs: {
+                    disabled: _vm.isClick,
+                    tile: "",
+                    dark: "",
+                    color: "teal",
+                    large: ""
+                  },
+                  on: { click: _vm.reset }
+                },
+                [
+                  _c("v-icon", { attrs: { left: "" } }, [
+                    _vm._v("mdi-dice-multiple")
+                  ]),
+                  _vm._v("คืนค่าเดิม\n            ")
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: "data-v-300a7e",
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$300a7e', $300a7e);
+          } else {
+            api.reload('$300a7e', $300a7e);
+          }
+        }
+
+        
+        var reloadCSS = require('_css_loader');
+        module.hot.dispose(reloadCSS);
+        module.hot.accept(reloadCSS);
+      
+      }
+    })();
+},{"../caseManager.js":"src/caseManager.js","lodash":"node_modules/lodash/lodash.js","jquery":"node_modules/jquery/dist/jquery.js","../plugins":"src/plugins.js","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"src/main.js":[function(require,module,exports) {
 "use strict";
 
 require("babel-polyfill");
@@ -96332,6 +96768,8 @@ var _Profile = _interopRequireDefault(require("./views/Profile.vue"));
 var _Random = _interopRequireDefault(require("./views/Random.vue"));
 
 var _RandomChance = _interopRequireDefault(require("./views/RandomChance.vue"));
+
+var _RandomScore = _interopRequireDefault(require("./views/RandomScore.vue"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -96368,6 +96806,12 @@ new _vue.default({
       meta: {
         transitionName: 'slide'
       }
+    }, {
+      path: '/score',
+      component: _RandomScore.default,
+      meta: {
+        transitionName: 'slide'
+      }
     }]
   }),
   store: new _vuex.default.Store({
@@ -96378,32 +96822,38 @@ new _vue.default({
         id: 1,
         name: 'มยุรเวนไตย',
         image: 'images/mayura.png',
-        case: 'case1'
+        case: 'case1',
+        score: 0
       }, {
         id: 2,
         name: 'ครุฑา',
         image: 'images/krutta.png',
-        case: 'case2'
+        case: 'case2',
+        score: 0
       }, {
         id: 3,
         name: 'กิเลน',
         image: 'images/kiren.png',
-        case: 'case3'
+        case: 'case3',
+        score: 0
       }, {
         id: 4,
         name: 'เอราวัณ',
         image: 'images/erawan.png',
-        case: 'case4'
+        case: 'case4',
+        score: 0
       }, {
         id: 5,
         name: 'บัณฑุราชสีห์',
         image: 'images/ratsri.png',
-        case: 'case5'
+        case: 'case5',
+        score: 0
       }, {
         id: 6,
         name: 'พญานาคราช',
         image: 'images/nakrat.png',
-        case: 'case6'
+        case: 'case6',
+        score: 0
       }],
       guildData: {
         id: 1,
@@ -96421,7 +96871,7 @@ new _vue.default({
     return h(_App.default);
   }
 }).$mount('#app');
-},{"babel-polyfill":"node_modules/babel-polyfill/lib/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js","vuex":"node_modules/vuex/dist/vuex.esm.js","vuetify":"node_modules/vuetify/dist/vuetify.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","lodash":"node_modules/lodash/lodash.js","./App.vue":"src/App.vue","./views/Checkin.vue":"src/views/Checkin.vue","./views/Profile.vue":"src/views/Profile.vue","./views/Random.vue":"src/views/Random.vue","./views/RandomChance.vue":"src/views/RandomChance.vue"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"babel-polyfill":"node_modules/babel-polyfill/lib/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js","vuex":"node_modules/vuex/dist/vuex.esm.js","vuetify":"node_modules/vuetify/dist/vuetify.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","lodash":"node_modules/lodash/lodash.js","./App.vue":"src/App.vue","./views/Checkin.vue":"src/views/Checkin.vue","./views/Profile.vue":"src/views/Profile.vue","./views/Random.vue":"src/views/Random.vue","./views/RandomChance.vue":"src/views/RandomChance.vue","./views/RandomScore.vue":"src/views/RandomScore.vue"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -96449,7 +96899,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59433" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59742" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
