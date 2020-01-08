@@ -18,7 +18,7 @@
                                 style="font-family: 'Pridi', serif !important;"
                                 class="title"
                                 v-if="$vuetify.breakpoint.mdAndUp"
-                            >กูอยู่...</span>
+                            >เราอยู่...</span>
                             {{ guildData.name }}
                         </div>
                     </transition>
@@ -34,10 +34,10 @@
                         class="mt-10 mr-0"
                     ></v-select>
                     <v-btn
-                        :style="{opacity: disabledAll == true ? .3 : 1}"
+                        :style="{opacity: (disabledAll == true || guild == '') ? .3 : 1}"
                         @click="next"
                         tile
-                    >ใช้! นี่แหละตระกูลกู</v-btn>
+                    >ใช้! นี่แหละตระกูลเรา</v-btn>
                 </v-col>
             </v-row>
         </v-container>
@@ -49,7 +49,7 @@ import { buttonClick } from "../soundManager";
 
 export default {
     data: () => ({
-        textTitle: "พวกมึงอยู่ตระกูลไหนกันวะ",
+        textTitle: "พวกนายอยู่ตระกูลไหนกันวะ",
         guild: "",
         guildData: {
             name: "ตระกูลไหนวะ?",
@@ -71,7 +71,7 @@ export default {
             this.stop = true;
         },
         next() {
-            if (this.disabledAll) return false;
+            if (this.disabledAll || this.guild == "") return false;
             this.$store.state.guildData = this.guildData;
             this.$router.push({ path: "/random" });
         }

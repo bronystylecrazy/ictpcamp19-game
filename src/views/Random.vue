@@ -225,7 +225,6 @@ export default {
         last: 0,
         isClick: false,
         isPopup: false,
-        caseData: CaseManager[0],
         cases: CaseManager,
         items: [],
         winitem: new Item("blue", new BaseItem("", "", ""), false),
@@ -357,6 +356,13 @@ export default {
                 case_done[this.winitem.rarity].play();
                 this.isPopup = true;
             }, duration);
+        }
+    },
+    computed: {
+        caseData() {
+            return CaseManager.filter(
+                x => x.selection == this.$store.state.guildData.name
+            )[0];
         }
     },
     created() {

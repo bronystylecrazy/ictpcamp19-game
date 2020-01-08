@@ -18,6 +18,7 @@ const case1_joke = [
 var case1 = {
    id: 0,
    name: '<b>ถุงขนมพญานาคราช</b>',
+   selection: 'พญานาคราช',
    description: 'อร่อยๆ นะคร้าบบ',
    icon: 'images/cases/case1.png',
    type: 'ห่อขนม',
@@ -47,6 +48,7 @@ var case1 = {
 var case2 = {
    id: 1,
    name: '<b>ถุงขนมครุฑา</b>',
+   selection: 'ครุฑา',
    description: 'อร่อยๆ นะคร้าบบ',
    icon: 'images/cases/case2.png',
    type: 'กล่อง',
@@ -76,6 +78,7 @@ var case2 = {
 var case3 = {
    id: 2,
    name: '<b>ถุงขนมมยุรเวนไตย</b>',
+   selection: 'มยุรเวนไตย',
    description: 'อร่อยๆ นะคร้าบบ',
    icon: 'images/cases/case3.png',
    type: 'กล่อง',
@@ -106,7 +109,8 @@ var case3 = {
 
 var case4 = {
    id: 3,
-   name: '<b>ถุงขนมบัณฑุราชสีห์</b>',
+   name: 'ถุงขนมบัณฑุราชสีห์</b>',
+   selection: 'บัณฑุราชสีห์',
    description: 'อร่อยๆ นะคร้าบบ',
    icon: 'images/cases/case4.png',
    type: 'กล่อง',
@@ -135,7 +139,8 @@ var case4 = {
 
 var case5 = {
    id: 4,
-   name: '<b>ถุงขนมกิเลน</b>',
+   name: 'ถุงขนมกิเลน</b>',
+   selection: 'กิเลน',
    description: 'อร่อยๆ นะคร้าบบ',
    icon: 'images/cases/case5.png',
    type: 'กล่อง',
@@ -164,7 +169,8 @@ var case5 = {
 
 var case6 = {
    id: 5,
-   name: '<b>ถุงขนมเอราวัณ</b>',
+   name: 'ถุงขนมเอราวัณ</b>',
+   selection: 'เอราวัณ',
    description: 'อร่อยๆ นะคร้าบบ',
    icon: 'images/cases/case6.png',
    type: 'กล่อง',

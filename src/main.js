@@ -85,7 +85,12 @@ new Vue({
                case: 'case6'
             }
          ],
-         guildData: {},
+         guildData: {
+            id: 1,
+            name: 'มยุรเวนไตย',
+            image: 'images/mayura.png',
+            case: 'case1'
+         },
          publicStyle: {
             background: 'url(images/ictp-board.jpg)',
             backgroundAttachment: 'fixed',
