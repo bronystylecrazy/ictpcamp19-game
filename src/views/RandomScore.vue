@@ -26,7 +26,7 @@
                                     >{{ guild.name }}</v-list-item-title>
                                     <v-list-item-subtitle>{{ cases(guild.name).blue.sample().name }}{{ cases(guild.name).blue.sample().description.split('|')[0] }}</v-list-item-subtitle>
                                 </v-list-item-content>
-                                <v-list-item-action-text>มูลค่า {{ guild.score }} คะแนน</v-list-item-action-text>
+                                <v-list-item-action-text class="title" style="font-family: 'Pridi', serif !important;">มูลค่า {{ guild.score }} คะแนน</v-list-item-action-text>
                             </v-list-item>
                         </v-card>
                     </v-col>
@@ -42,16 +42,16 @@
                     class="ml-2"
                     tile
                     dark
-                    color="teal"
+                    color="warning"
                     large
                 >
-                    <v-icon left>mdi-dice-multiple</v-icon>มากไปน้อย
+                    <v-icon left>mdi-filter-variant-plus</v-icon>มากไปน้อย
                 </v-btn>
-                <v-btn @click="sort" :disabled="isClick" class="ml-2" tile dark color="teal" large>
-                    <v-icon left>mdi-dice-multiple</v-icon>น้อยไปมาก
+                <v-btn @click="sort" :disabled="isClick" class="ml-2" tile dark color="warning" large>
+                    <v-icon left>mdi-filter-variant-minus</v-icon>น้อยไปมาก
                 </v-btn>
-                <v-btn @click="reset" :disabled="isClick" class="ml-2" tile dark color="teal" large>
-                    <v-icon left>mdi-dice-multiple</v-icon>คืนค่าเดิม
+                <v-btn @click="reset" :disabled="isClick" class="ml-2" tile dark color="secondary" large>
+                    <v-icon left>mdi-refresh</v-icon>คืนค่าเดิม
                 </v-btn>
             </v-row>
         </v-container>

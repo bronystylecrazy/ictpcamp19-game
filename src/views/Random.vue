@@ -154,7 +154,7 @@
                                 <img
                                     draggable="false"
                                     :src="_case.icon"
-                                    style="width:180px; height:120px; position: relative; "
+                                    :style="{filter: _case.type == 'bonus' ? 'saturate(5.5)' : 'saturate(1)',width:'180px', height:'120px', position:'relative'} "
                                 />
                                 <div class="case-item-value white--text">
                                     <div style="max-height:55px; overflow: hidden; padding: 5px;">
@@ -170,11 +170,11 @@
         </v-container>
         <v-overlay :value="isPopup" class="text-center">
             <div class="display-1 shadow" style="font-family: 'Pridi', serif !important;">
-                ยินดีด้วยครับ น้องๆได้รับ
+                ยินดีด้วยครับ <span  v-if="caseData.type == 'bonus'" :class="{'red--text': who == 'ทีมที่แพ้','blue--text': who == 'ทีมที่ชนะ'}">{{ who }} </span><span v-else>น้องๆ</span>ได้รับ
                 <span
                     :style="{color:winitem.getHTMLColor()}"
                     class="shadow"
-                >{{ winitem.baseItem.name }}</span> จ้า~~
+                ><span  v-if="caseData.type == 'bonus'">โบนัส</span>{{ winitem.baseItem.name }}</span> จ้า~~
             </div>
             <v-img v-if="winitem != {}" :src="winitem.getIcon()" :lazy-src="winitem.getIcon()"></v-img>
             <div class="description">
@@ -193,7 +193,8 @@
                     {{ winitem.getThaiRarity() }}
                 </span>
             </div>
-            <div class="description green--text shadow">
+        
+<div class="description green--text shadow">
                 "
                 <span v-html="winitem.getFuckingJoke()"></span>"
             </div>
@@ -226,11 +227,16 @@ export default {
         isClick: false,
         isPopup: false,
         cases: CaseManager,
+        caseData: {},
         items: [],
         winitem: new Item("blue", new BaseItem("", "", ""), false),
-        masterVolume: 1
+        masterVolume: 1,
+        who: ''
     }),
     methods: {
+        getWho(){
+            return ['ทีมที่ชนะ','ทีมที่แพ้'][Math.round( Math.random())];
+        },
         viewChance() {
             this.$store.state.caseData = this.caseData;
             this.$router.push({ path: "/view" });
@@ -238,6 +244,11 @@ export default {
         selectCase(current) {
             if (this.isClick) return false;
             this.caseData = current;
+            // console.log(current);
+            // console.log(this.$store.state.guildData);
+            if(current.type == 'bonus'){
+                this.who = this.getWho();
+            }
             this.$vuetify.goTo(0);
             // this.$store.state.bgColor =
             //     this.caseData.bgColor || "grey-blud darken-4";
@@ -356,14 +367,16 @@ export default {
                 case_done[this.winitem.rarity].play();
                 this.isPopup = true;
             }, duration);
-        }
-    },
-    computed: {
-        caseData() {
-            return CaseManager.filter(
+        },
+        getCaseData(){
+            this.caseData = CaseManager.filter(
                 x => x.selection == this.$store.state.guildData.name
             )[0];
         }
+    },
+    mounted(){
+        this.getCaseData();
+        console.log(this.cases);
     },
     created() {
         console.clear();

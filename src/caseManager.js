@@ -197,4 +197,182 @@ var case6 = {
    bgColor: '#B39DDB'
 };
 
-export default [case1, case2, case3, case4, case5, case6];
+
+var case7 = {
+   id: 6,
+   name: '<b>ถุงขนมพญานาคราช(โบนัส)</b>',
+   selection: 'พญานาคราช',
+   description: 'อร่อยๆ นะคร้าบบ',
+   icon: 'images/cases/case1.png',
+   type: "bonus",
+   gold: [
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 1 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 2 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 3 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 4 เม็ด', 'candy/heart1.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทม่วง | ทั้งหมด 5 เม็ด', 'candy/heart1.png', case1_joke),
+   ],
+   purple: [
+      
+   ],
+   pink: [
+      
+   ],
+   red: [
+     
+   ],
+   blue: [
+     
+   ],
+   bgColor: '#80CBC4'
+};
+
+var case8 = {
+   id: 7,
+   name: '<b>ถุงขนมครุฑา(โบนัส)</b>',
+   selection: 'ครุฑา',
+   description: 'อร่อยๆ นะคร้าบบ',
+   icon: 'images/cases/case2.png',
+   type: "bonus",
+   gold: [
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 1 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 2 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 3 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 4 เม็ด', 'candy/heart2.png', case1_joke),
+      new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 5 เม็ด', 'candy/heart2.png', case1_joke),
+   ],
+   purple: [
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 6 เม็ด', 'candy/heart2.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 7 เม็ด', 'candy/heart2.png', case1_joke),
+   ],
+   pink: [
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 8 เม็ด', 'candy/heart2.png', case1_joke),
+   ],
+   red: [
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 9 เม็ด', 'candy/heart2.png', case1_joke),
+   ],
+   blue: [
+      // new BaseItem('ลูกอม', 'ฮาร์ทบีทชมพู | ทั้งหมด 10 เม็ด', 'candy/heart2.png', case1_joke),
+   ],
+   bgColor: '#EF9A9A'
+};
+
+var case9 = {
+   id: 8,
+   name: '<b>ถุงขนมมยุรเวนไตย(โบนัส)</b>',
+   selection: 'มยุรเวนไตย',
+   description: 'อร่อยๆ นะคร้าบบ',
+   icon: 'images/cases/case3.png',
+   type: "bonus",
+   gold: [
+      new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 1 เม็ด', 'candy/chewy.png', case1_joke),
+      new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 2 เม็ด', 'candy/chewy.png', case1_joke),
+      new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 3 เม็ด', 'candy/chewy.png', case1_joke),
+      new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 4 เม็ด', 'candy/chewy.png', case1_joke),
+      new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 5 เม็ด', 'candy/chewy.png', case1_joke),
+   ],
+   purple: [
+      // new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 6 เม็ด', 'candy/chewy.png', case1_joke),
+      // new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 7 เม็ด', 'candy/chewy.png', case1_joke),
+   ],
+   pink: [
+      // new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 8 เม็ด', 'candy/chewy.png', case1_joke),
+   ],
+   red: [
+      // new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 9 เม็ด', 'candy/chewy.png', case1_joke),
+   ],
+   blue: [
+      // new BaseItem('ลูกอม', 'เคี้ยวหนึบ STBR | ทั้งหมด 10 เม็ด', 'candy/chewy.png', case1_joke),
+   ],
+   bgColor: '#90CAF9'
+};
+
+
+
+var case10 = {
+   id: 9,
+   name: 'ถุงขนมบัณฑุราชสีห์(โบนัส)</b>',
+   selection: 'บัณฑุราชสีห์',
+   description: 'อร่อยๆ นะคร้าบบ',
+   icon: 'images/cases/case4.png',
+   type: "bonus",
+   gold: [
+      new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 1 เม็ด', 'candy/kopiko.png', case1_joke),
+      new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 2 เม็ด', 'candy/kopiko.png', case1_joke),
+      new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 3 เม็ด', 'candy/kopiko.png', case1_joke),
+      new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 4 เม็ด', 'candy/kopiko.png', case1_joke),
+      new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 5 เม็ด', 'candy/kopiko.png', case1_joke),
+   ],
+   purple: [
+      // new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 6 เม็ด', 'candy/kopiko.png', case1_joke),
+      // new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 7 เม็ด', 'candy/kopiko.png', case1_joke),
+   ],
+   pink: [
+      // new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 8 เม็ด', 'candy/kopiko.png', case1_joke),
+   ],
+   red: [
+      // new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 9 เม็ด', 'candy/kopiko.png', case1_joke),
+   ],
+   blue: [
+      // new BaseItem('ลูกอม', 'โกบิกโก้ | ทั้งหมด 10 เม็ด', 'candy/kopiko.png', case1_joke),
+   ],
+   bgColor: '#FFF59D'
+};
+
+var case11 = {
+   id: 10,
+   name: 'ถุงขนมกิเลน(โบนัส)</b>',
+   selection: 'กิเลน',
+   description: 'อร่อยๆ นะคร้าบบ',
+   icon: 'images/cases/case5.png',
+   type: "bonus",
+   gold: [
+      new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 1 เม็ด', 'candy/lush.png', case1_joke),
+      new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 2 เม็ด', 'candy/lush.png', case1_joke),
+      new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 3 เม็ด', 'candy/lush.png', case1_joke),
+      new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 4 เม็ด', 'candy/lush.png', case1_joke),
+      new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 5 เม็ด', 'candy/lush.png', case1_joke),
+   ],
+   purple: [
+      // new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 6 เม็ด', 'candy/lush.png', case1_joke),
+      // new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 7 เม็ด', 'candy/lush.png', case1_joke),
+   ],
+   pink: [
+      // new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 8 เม็ด', 'candy/lush.png', case1_joke),
+   ],
+   red: [
+      // new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 9 เม็ด', 'candy/lush.png', case1_joke),
+   ],
+   blue: [
+      // new BaseItem('ลูกอม', 'ลัชส์ | ทั้งหมด 10 เม็ด', 'candy/lush.png', case1_joke),
+   ],
+   bgColor: '#FFCC80 '
+};
+
+var case12 = {
+   id: 11,
+   name: 'ถุงขนมเอราวัณ(โบนัส)</b>',
+   selection: 'เอราวัณ',
+   description: 'อร่อยๆ นะคร้าบบ',
+   icon: 'images/cases/case6.png',
+   type: "bonus",
+   gold: [
+      new BaseItem('ลูกอม', 'เมนส์ทอส | ทั้งหมด 1 เม็ด', 'candy/mentos.png', case1_joke),
+      new BaseItem('ลูกอม', 'เมนส์ทอส | ทั้งหมด 2 เม็ด', 'candy/mentos.png', case1_joke),
+      new BaseItem('ลูกอม', 'เมนส์ทอส | ทั้งหมด 3 เม็ด', 'candy/mentos.png', case1_joke),
+      new BaseItem('ลูกอม', 'เมนส์ทอส | ทั้งหมด 4 เม็ด', 'candy/mentos.png', case1_joke),
+      new BaseItem('ลูกอม', 'เมนส์ทอส | ทั้งหมด 5 เม็ด', 'candy/mentos.png', case1_joke),
+   ],
+   purple: [
+   ],
+   pink: [
+   ],
+   red: [
+   ],
+   blue: [
+      
+   ],
+   bgColor: '#B39DDB'
+};
+
+export default [case1, case2, case3, case4, case5, case6,case7, case8, case9, case10, case11, case12];
